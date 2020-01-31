@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50AA5B723AD464F00C67A2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AA5B623AD464F00C67A2E /* AppDelegate.swift */; };
+		A50AA5B923AD464F00C67A2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AA5B823AD464F00C67A2E /* SceneDelegate.swift */; };
+		A50AA5BB23AD464F00C67A2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AA5BA23AD464F00C67A2E /* ViewController.swift */; };
+		A50AA5BE23AD464F00C67A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50AA5BC23AD464F00C67A2E /* Main.storyboard */; };
+		A50AA5C123AD464F00C67A2E /* MCamera.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A50AA5BF23AD464F00C67A2E /* MCamera.xcdatamodeld */; };
+		A50AA5C323AD465000C67A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50AA5C223AD465000C67A2E /* Assets.xcassets */; };
+		A50AA5C623AD465000C67A2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50AA5C423AD465000C67A2E /* LaunchScreen.storyboard */; };
+		A50AA5CE23AD476B00C67A2E /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AA5CD23AD476B00C67A2E /* PreviewViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A50AA5B323AD464F00C67A2E /* MCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50AA5B623AD464F00C67A2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50AA5B823AD464F00C67A2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A50AA5BA23AD464F00C67A2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50AA5BD23AD464F00C67A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50AA5C023AD464F00C67A2E /* MCamera.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MCamera.xcdatamodel; sourceTree = "<group>"; };
+		A50AA5C223AD465000C67A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50AA5C523AD465000C67A2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A50AA5C723AD465000C67A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50AA5CD23AD476B00C67A2E /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50AA5B023AD464F00C67A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50AA5AA23AD464F00C67A2E = {
+			isa = PBXGroup;
+			children = (
+				A50AA5B523AD464F00C67A2E /* MCamera */,
+				A50AA5B423AD464F00C67A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50AA5B423AD464F00C67A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50AA5B323AD464F00C67A2E /* MCamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50AA5B523AD464F00C67A2E /* MCamera */ = {
+			isa = PBXGroup;
+			children = (
+				A50AA5B623AD464F00C67A2E /* AppDelegate.swift */,
+				A50AA5B823AD464F00C67A2E /* SceneDelegate.swift */,
+				A50AA5BA23AD464F00C67A2E /* ViewController.swift */,
+				A50AA5BC23AD464F00C67A2E /* Main.storyboard */,
+				A50AA5CD23AD476B00C67A2E /* PreviewViewController.swift */,
+				A50AA5C223AD465000C67A2E /* Assets.xcassets */,
+				A50AA5C423AD465000C67A2E /* LaunchScreen.storyboard */,
+				A50AA5C723AD465000C67A2E /* Info.plist */,
+				A50AA5BF23AD464F00C67A2E /* MCamera.xcdatamodeld */,
+			);
+			path = MCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50AA5B223AD464F00C67A2E /* MCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50AA5CA23AD465000C67A2E /* Build configuration list for PBXNativeTarget "MCamera" */;
+			buildPhases = (
+				A50AA5AF23AD464F00C67A2E /* Sources */,
+				A50AA5B023AD464F00C67A2E /* Frameworks */,
+				A50AA5B123AD464F00C67A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCamera;
+			productName = MCamera;
+			productReference = A50AA5B323AD464F00C67A2E /* MCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50AA5AB23AD464F00C67A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Manaswi Daksha";
+				TargetAttributes = {
+					A50AA5B223AD464F00C67A2E = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A50AA5AE23AD464F00C67A2E /* Build configuration list for PBXProject "MCamera" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50AA5AA23AD464F00C67A2E;
+			productRefGroup = A50AA5B423AD464F00C67A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50AA5B223AD464F00C67A2E /* MCamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50AA5B123AD464F00C67A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50AA5C623AD465000C67A2E /* LaunchScreen.storyboard in Resources */,
+				A50AA5C323AD465000C67A2E /* Assets.xcassets in Resources */,
+				A50AA5BE23AD464F00C67A2E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50AA5AF23AD464F00C67A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50AA5BB23AD464F00C67A2E /* ViewController.swift in Sources */,
+				A50AA5CE23AD476B00C67A2E /* PreviewViewController.swift in Sources */,
+				A50AA5B723AD464F00C67A2E /* AppDelegate.swift in Sources */,
+				A50AA5C123AD464F00C67A2E /* MCamera.xcdatamodeld in Sources */,
+				A50AA5B923AD464F00C67A2E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A50AA5BC23AD464F00C67A2E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50AA5BD23AD464F00C67A2E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50AA5C423AD465000C67A2E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50AA5C523AD465000C67A2E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50AA5C823AD465000C67A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50AA5C923AD465000C67A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50AA5CB23AD465000C67A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZBLGZ7QQXQ;
+				INFOPLIST_FILE = MCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpalm.intern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = InternProvisioningProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50AA5CC23AD465000C67A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ZBLGZ7QQXQ;
+				INFOPLIST_FILE = MCamera/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simpalm.intern;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = InternProvisioningProfile;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50AA5AE23AD464F00C67A2E /* Build configuration list for PBXProject "MCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AA5C823AD465000C67A2E /* Debug */,
+				A50AA5C923AD465000C67A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50AA5CA23AD465000C67A2E /* Build configuration list for PBXNativeTarget "MCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50AA5CB23AD465000C67A2E /* Debug */,
+				A50AA5CC23AD465000C67A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A50AA5BF23AD464F00C67A2E /* MCamera.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A50AA5C023AD464F00C67A2E /* MCamera.xcdatamodel */,
+			);
+			currentVersion = A50AA5C023AD464F00C67A2E /* MCamera.xcdatamodel */;
+			path = MCamera.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A50AA5AB23AD464F00C67A2E /* Project object */;
+}
